@@ -1,0 +1,98 @@
+header {
+    height: 100px
+  }
+      
+     
+     * {
+          font-family: inherit;
+  
+      }
+  
+  
+      body {
+          background: white; 
+      }
+      
+      .video-background{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width:auto;
+        height: auto;
+        z-index: -1;
+      }
+      video {
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+      
+      }
+  
+      #myVideo {
+        object-fit: cover;
+         position: fixed;
+         right: 0;
+         bottom: 0;
+         min-width: 100%;
+         min-height: 100%;
+         
+       }
+  
+      #content {
+         
+          width: 400px;
+          margin: auto;
+          text-align: center;
+          color: black;
+          padding: 20px;
+          border-radius: 5px;
+  
+      }
+  
+      
+  
+      #eightBall {
+          width: 350px;
+          height: 350px;
+      
+          color: white;
+          margin: auto;
+          margin-top: 10px;
+          border-radius: 100%;
+          display: grid;
+          justify-content: center;
+          align-items: center;
+      }
+  
+      #answer {
+          font-size: 39px;
+      }
+       
+      #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

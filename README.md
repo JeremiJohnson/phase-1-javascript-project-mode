@@ -105,3 +105,7 @@ also recommend the following to help stay organized and on track:
 
 Check in with your instructors to make sure your scope and timeline are
 manageable.
+
+cd into db folder and run: npx json-server --watch jsproject.json
+that launches the server on http://localhost:3000
+access the 'answers' resource at http://localhost:3000/answers
