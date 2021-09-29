@@ -2,14 +2,18 @@ let answers
  let button = document.querySelector("button");
 let answer = document.querySelector("#answer");
 
+
 document.addEventListener("DOMContentLoaded", () => {
- fetch('http://localhost:3000/answers')
+  fetch('http://localhost:3000/answers')
   .then(response => response.json())
   .then(answers => {
      button.addEventListener("click", () => {
-      const index = Math.floor(Math.random() * answers.length) - 1
-      console.log(answers[index] )
+      const index = Math.floor(Math.random() * answers.length) 
+      console.log(answers[index])
+      answer.innerHTML = answers[index]
       
+       
+     
       })
   })
 
